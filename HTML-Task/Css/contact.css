@@ -1,0 +1,209 @@
+
+.appointment-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height:600px;
+  }
+  
+  .appointment-info {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-info h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .contact-card {
+    display: grid;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f1f7ff;
+    border-radius: 10px;
+    height: 100px;
+  }
+  
+  .contact-item i {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .contact-item h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .contact-item p {
+    font-size: 0.9rem;
+    color: #555;
+  
+  }
+  
+  .appointment-form {
+    padding: 20px;
+    background-color: #f1f7ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    height: 500px;
+  }
+  
+  .form-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input,
+  textarea,
+  select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+}
+
+
+/* Testomanal Section*/
+
+.testimonial-section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.testimonial-card {
+  flex: 0 0 100%;
+  max-width: 400px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.testimonial-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial-profession {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.carousel-control.prev {
+  left: 20px;
+}
+
+.carousel-control.next {
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .testimonial-heading {
+    font-size: 20px;
+  }
+}

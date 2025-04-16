@@ -1,0 +1,15 @@
+Recreate the homepage UI (provided as an image) using only HTML and CSS. This task will assess your front-end structuring skills, design accuracy, and responsive layout abilities.
+
+Instructions:
+
+1) Use pure HTML and CSS only — Use Bootstrap or Tailwind.
+2) Create all sections as shown in the design
+3) Make it responsive (at least desktop and tablet views).
+4) Use the provided images/ folder for all image assets.
+5) Use a clean, professional font like Poppins, Open Sans, or Roboto.
+6) Add basic styling details:
+Hover effects for buttons and cards
+box-shadow for cards and containers
+Use semantic HTML where applicable.
+
+Time Limit: 2 Hours
